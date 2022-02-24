@@ -31,8 +31,8 @@ export const IConfig = t.interface({
   APIM_SUBSCRIPTION_ID: NonEmptyString,
   APIM_TENANT_ID: NonEmptyString,
 
-  AssetsStorageConnection: NonEmptyString,
-  AzureWebJobsStorage: NonEmptyString,
+  // AssetsStorageConnection: NonEmptyString,
+  // AzureWebJobsStorage: NonEmptyString,
 
   COSMOSDB_KEY: NonEmptyString,
   COSMOSDB_NAME: NonEmptyString,
@@ -45,7 +45,7 @@ export const IConfig = t.interface({
     []
   ),
 
-  StorageConnection: NonEmptyString,
+  // StorageConnection: NonEmptyString,
 
   isProduction: t.boolean,
 });
